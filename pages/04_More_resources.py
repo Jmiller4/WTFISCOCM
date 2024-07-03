@@ -14,7 +14,7 @@ WTF_url = "https://www.gitcoin.co/blog/wtf-is-cluster-matching-qf"
 Forum_url = "https://gov.gitcoin.co/t/nerd-post-updates-to-cluster-mapping-matching/18705"
 COCM_prod_url = "https://github.com/Jmiller4/qf-variants"
 COCM_illus_url = "https://colab.research.google.com/drive/1D_3h-Lvpvd5p2YUbyhV8pMRzCZmbFxbk?usp=sharing"
-Sandbox_url = https://github.com/Jmiller4/WTFISCOCM"
+Sandbox_url = "https://github.com/Jmiller4/WTFISCOCM"
 
 st.write(f'The first iteration of COCM was described in [this paper]({BCR_url}). The paper also includes a discussion of collusion and QF\'s weakness to collusion.')
 
