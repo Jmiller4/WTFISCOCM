@@ -125,15 +125,18 @@ st.set_page_config(
 
 st.write('## COCM rewards quality over influence')
 
-# st.write('COCM (Connection-Oriented Cluster Match) is a mechanism for allocating money to different projects. Users donate money directly to the projects, and then the mechanism adds in extra money from a "matching pool" to award projects that have diverse bases of support.')
 
-# st.write('COCM builds off of another mechanism called Quadratic Funding (QF). QF is great, but it\'s not so good at dealing with fake accounts or well-coordinated groups of people, and higher-quality projects can lose out to a lower-quality projects with outsize influence.')
+s2 = 'At Gitcoin, we noticed a pattern: the projects that felt best for the ecosystem often had diverse bases of support, from engaged community members who donated to many other projects. '
+s3 = 'Meanwhile, less legit-feeling projects sometimes made off with more funding because they were able to draw in many single or few-issue voters, either via bots or the promise of kickbacks and airdrops. '
+s4 = 'This led to a theory about quality and influence: while normally correlated, sometimes projects with good quality have low influence, and vice versa. '
+s5 = 'If quality and influence are correlated, then the best project wins in any funding regime. '
+s6 = 'But when these two properties are mis-matched, **QF rewards the more influntial projects, and COCM rewards the projects with higher quality.**'
 
-st.write('QF isn\'t so good at dealing with fake accounts or well-coordinated groups of people, and higher-quality projects can lose out to a lower-quality projects with outsize influence. COCM is much more resistant to this problem.')
+st.write(s2 + s3)
+st.write(s4 + s5 + s6)
 
 st.write('On this page, you can play around with a simulation comparing COCM and QF results when project quality and project influence are de-coupled.')
-st.write('Use the sliders below to adjust the relative quality and influence of two main projects, A and B. Results for both QF and COCM are calculated below. COCM does a better job at rewarding the project with more quality, even if it has less influence.')
-
+st.write('Use the sliders below to adjust the relative quality and influence of two main projects, A and B. Results for both QF and COCM are calculated below. Click the "advanced" tab to learn more, and remember that this is just a simple model of the world based on observations from Gitcoin -- your round or ecosystem may not behave like this.')
 
 
 ### ADVANCED DROP DOWN ###
